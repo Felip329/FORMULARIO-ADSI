@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>FORMULARIO</title>
+</head>
+<body>
+	<div class="contenedor">
+		<div id="Contenedor">
+    
+
+    <script language="javascript"> 
+function mostrar() 
+{ 
+    var reg_1=document.getElementById("reg_1"); 
+    var reg_2=document.getElementById("reg_2"); 
+    var reg_3=document.getElementById("reg_3");
+    var reg_4=document.getElementById("reg_4"); 
+    var reg_5=document.getElementById("reg_5"); 
+    var reg_6=document.getElementById("reg_6"); 
+
+    document.write( 
+    "<table cellpadding='5' cellspacing='0' border='1'>" + 
+    "<tr><td>Tipo de Documento</td><td>Numero de documento</td><td>Nombres</td><td>Apellidos</td><td>Telefono</td><td>Email</td></tr>"+ 
+    "<tr><td>"+reg_1.value+"</td><td>"+reg_2.value+"</td></td><td>"+reg_3.value+"</td></td><td>"+reg_4.value+"</td></td><td>"+reg_5.value+"</td></td><td>"+reg_6.value+"</td></tr></table>" 
+    ); 
+} 
+</script>
+
+   <h2>FORMULARIO</h2>
+
+            <div>
+            	<label>Tipo de Documento:</label>
+              	<select id="Type" name="user" required>
+                  
+              	<option value="type">Cédula de Ciudadanía</option>
+              	<option value="type">Tarjeta de Identidad</option>
+              	<option value="type">Cédula de Extranjería</option>
+              	</select>
+            </div>
+            <input type="text" id="reg_1"/><br /><br /> 
+            <div>
+             	<label>Numero de documento:</label>
+             <input type="text" id="reg_2"/requerid><br /><br /> 
+             	
+            </div>
+
+            <div>
+              	<label>Nombres:</label>         	           
+                 <input type="text" id="reg_3"/><br /><br /> 
+            </div>
+
+            <div>
+              	<label>Apellidos:</label>
+                <input type="text" id="reg_4"/><br /><br />
+            </div>
+
+            <div>
+              	<label>Fecha de nacimiento:</label>
+              	<input type="text" name="email" placeholder="" required>
+            </div>
+
+            <div>
+              	<label>Direccion:</label>
+              	<input type="text" name="email" placeholder="" required>
+            </div>
+
+            <div>
+              	<label>Telefono:</label>
+              	<input type="Numero" id="reg_5"/><br><br /> 
+            </div>
+
+            <div>
+            	<label>Departamento:</label>
+              	<select id="Type" name="user">
+              	<option value="type">Antioquia</option>
+              	<option value="type">Atlántico</option>
+              	<option value="type">Bolívar</option>
+              	<option value="type">Boyacá</option>
+              	<option value="type">Caldas</option>
+              	<option value="type">Caquetá</option>
+              	<option value="type">Cauca</option>
+              	<option value="type">Cesar</option>
+              	<option value="type">Córdoba</option>
+              	<option value="type">Cundinamarca</option>
+              	<option value="type">Chocó</option>
+              	<option value="type">Huila</option>
+              	<option value="type">La Guajira</option>
+              	<option value="type">Magdalena</option>
+              	<option value="type">Meta</option>
+              	<option value="type">Nariño</option>
+              	<option value="type">Quindío</option>
+              	<option value="type">Risaralda</option>
+              	<option value="type">Santander</option>
+              	<option value="type">Sucre</option>
+              	<option value="type">Tolima</option>
+              	<option value="type">Arauca</option>
+              	<option value="type">Casanare</option>
+              	<option value="type">Putumayo</option>
+              	<option value="type">Amazonas</option>
+              	<option value="type">Guainía</option>
+              	<option value="type">Vaupés</option>
+              	<option value="type">Vichada</option>
+              	</select>
+            </div>
+
+            <div>
+              	<label>Email:</label>
+              	<input type="Email" id="reg_6"/><br><br />
+                
+
+            <form> 
+              <input type="button" onclick="mostrar()" value="Enviar"/> 
+            </form> 
+         
+
+          <footer>
+  				<p>Presentado por: Daniel</p>
+		    	</footer>
+
+</body>
+</html>
+
